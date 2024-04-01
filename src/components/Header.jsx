@@ -6,8 +6,8 @@ import { IoCloseSharp } from "react-icons/io5";
 function Header() {
     const [toggle,setToggle] = useState(false)
   return (
-    <div className='bg-[#795FA1]'>
-        <div className=' px-10 flex py-5 items-center justify-between max-w-[1240px] mx-auto border border-black bg-[white] ' > 
+    <div className='bg-[white]'>
+        <div className=' px-10 flex py-5 items-center justify-between max-w-[1240px] mx-auto  bg-[white] ' > 
 
             <div className='text-3xl'>Kasb7blagpost</div>
 
