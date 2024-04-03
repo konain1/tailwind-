@@ -3,8 +3,9 @@ import React from 'react'
 function Plans() {
   return (
     <div className='py-[100px] px-2'>
-        <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-6'>
-            <div className='bg-gray-100 shadow-xl h-[500px] my-4 hover:scale-105 duration-500 '>
+        <div className='max-w-[1240px]  mx-auto md:grid grid-cols-3 gap-6'>
+
+            <div className='bg-gray-100 sm:w-[60%] md:w-full  mx-auto shadow-xl h-[500px] my-4 hover:scale-105 duration-500  '>
                 <h1 className='mt-4 text-[20px] font-bold text-center py-3'>Web Development</h1>
                 <h1 className='mt-4 text-[30px] text-center font-bold'>$149</h1>
                 <p className='mt-4 text-[10px] text-center font-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
@@ -16,7 +17,7 @@ function Plans() {
 
 
             </div>
-            <div className='bg-gray-100 shadow-xl h-[500px] my-4 hover:scale-105 duration-500 '>
+            <div className='bg-gray-100 sm:w-[60%] md:w-full mx-auto shadow-xl h-[500px] my-4 hover:scale-105 duration-500 '>
                 <h1 className='mt-4 text-[20px] font-bold text-center py-3'>Web Development</h1>
                 <h1 className='mt-4 text-[30px] text-center font-bold'>$149</h1>
                 <p className='mt-4 text-[10px] text-center font-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
@@ -28,7 +29,7 @@ function Plans() {
 
 
             </div>            
-            <div className='bg-gray-100 shadow-xl h-[500px] my-4 hover:scale-105 duration-500 '>
+            <div className='bg-gray-100 sm:w-[60%] md:w-full mx-auto shadow-xl h-[500px] my-4 hover:scale-105 duration-500 '>
                 <h1 className='mt-4 text-[20px] font-bold text-center py-3'>Web Development</h1>
                 <h1 className='mt-4 text-[30px] text-center font-bold'>$149</h1>
                 <p className='mt-4 text-[10px] text-center font-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
